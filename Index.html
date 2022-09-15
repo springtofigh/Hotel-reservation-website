@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>پروژه قو الماس خاورمیانه</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <!-- FONTS -->
+        <link rel="stylesheet" type="text/css" href="css/font.css">
+        <!-- STYLES -->
+        <link rel="stylesheet" type="text/css" href="css/Main.css">
+        <!-- ICONS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+<body dir="rtl">
+    <!-- Top navigation -->
+    <nav id="top-nav" class="clearfix">
+        <!-- Menu -->
+        <a href="#" class="logo f-right">
+            <i class="fa fa-bed" style="margin-left: 8px;"></i>
+            <span>لوگو</span>
+        </a>
+        <a href="#rooms" class="list-item f-right">اتاق ها</a>
+        <a href="#about" class="list-item f-right">درباره  ما</a>
+        <a href="#contact" class="list-item f-right">ارتباط با ما</a>
+        <!-- Reserve Button -->
+        <a href="#header-reserve-box" class="list-item f-left">رزور آنلاین</a>
+    </nav>
+
+    <!-- Main Website Header -->
+    <header id="main-header">
+        <!-- Reserve Form -->
+        <div id="header-reserve-box">
+            <!-- Header -->
+            <h2>
+                <i class="fa fa-bed" style="margin-left: 8px;"></i>
+                <span>هتل عظیم زاده</span>
+            </h2>
+            <!-- Content -->
+            <div class="entry">
+                <form action=" " method=" ">
+                    <div class="flex-container">
+                        <!-- Check in -->
+                        <div class="form-group">
+                            <label for="hrb-check-in">
+                                <i class="fa-regular fa-calendar"></i>
+                                <span>تاریخ ورود</span>
+                            </label>
+                            <input type="text" name="check-in" id="hrb-check-in" placeholder="روز/ماه/سال">
+                        </div>
+                        <!-- Check out -->
+                        <div class="form-group">
+                            <label for="hrb-check-out">
+                                <i class="fa-regular fa-calendar"></i>
+                                <span>تاریخ خروج</span>
+                            </label>
+                            <input type="text" name="check-out" id="hrb-check-out" placeholder="روز/ماه/سال">
+                        </div>
+                        <!-- Adult -->
+                        <div class="form-group">
+                            <label for="hrb-adult">
+                                <i class="fa-solid fa-person"></i>
+                                <span>بزرگسالان</span>
+                            </label>
+                            <input type="number" name="adult" id="hrb-adult" value="1" min="1" max="10">
+                        </div>
+                        <!-- Kids -->
+                        <div class="form-group">
+                            <label for="hrb-kids">
+                                <i class="fa fa-child"></i>
+                                <span>کودکان</span>
+                            </label>
+                            <input type="number" name="Kids" id="hrb-kids" value="0" min="1" max="10">
+                        </div>
+                    </div>
+                    <!-- Search Button -->
+                    <button type="submit">
+                        <span>جست و جو در اتاق ها</span>
+                        <i class="fa fa-search" style="margin-right: 8px;"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Rooms -->
+    <section id="rooms">
+        <!-- Header -->
+        <header>
+            <span>.:: ROOMS ::.</span>
+            <h2>اتاق های هتل</h2>
+        </header>
+        <div class="entry">
+            <div class="flex-container">
+                <!-- Room Item -->
+                <div class="col-item">
+                    <div class="room-item">
+                        <!-- Thumbnail -->
+                        <img src="img/room1.jpg" alt="room image" class="img-responsive">
+                        <!-- title -->
+                        <h3 class="title">اتاق شماره یک</h3>
+                        <!-- price -->
+                        <div class="price">۱۴۵ هزار تومان</div>
+                        <!-- number of beds -->
+                        <div class="number-of-beds">دو خوابه</div>
+                        <!-- size -->
+                        <div class="size">37 متر مربع</div>
+                        <!-- more property -->
+                        <div class="more-property">
+                            <i class="fa fa-bath"></i>
+                            <i class='fas fa-phone'></i>
+                            <i class='fas fa-wifi'></i>
+                            <i class='fas fa-tv'></i>
+                        </div>
+                        <!-- Choose Button -->
+                        <a href="#" class="choose-btn">رزرو آنلاین</a>
+                    </div>
+                </div>
+                <!-- Room Item -->
+                <div class="col-item">
+                    <div class="room-item">
+                        <!-- Thumbnail -->
+                        <img src="img/room2.jpg" alt="room image" class="img-responsive">
+                        <!-- title -->
+                        <h3 class="title">اتاق شماره دو</h3>
+                        <!-- price -->
+                        <div class="price">۱۴۵ هزار تومان</div>
+                        <!-- number of beds -->
+                        <div class="number-of-beds">دو خوابه</div>
+                        <!-- size -->
+                        <div class="size">37 متر مربع</div>
+                        <!-- more property -->
+                        <div class="more-property">
+                            <i class="fa fa-bath"></i>
+                            <i class='fas fa-phone'></i>
+                            <i class='fas fa-wifi'></i>
+                            <i class='fas fa-tv'></i>
+                        </div>
+                        <!-- Choose Button -->
+                        <a href="#" class="choose-btn">رزرو آنلاین</a>
+                    </div>
+                </div>
+                <!-- Room Item -->
+                <div class="col-item">
+                    <div class="room-item">
+                        <!-- Thumbnail -->
+                        <img src="img/room3.jpg" alt="room image" class="img-responsive">
+                        <!-- title -->
+                        <h3 class="title">اتاق شماره سه</h3>
+                        <!-- price -->
+                        <div class="price">۱۴۵ هزار تومان</div>
+                        <!-- number of beds -->
+                        <div class="number-of-beds">دو خوابه</div>
+                        <!-- size -->
+                        <div class="size">37 متر مربع</div>
+                        <!-- more property -->
+                        <div class="more-property">
+                            <i class="fa fa-bath"></i>
+                            <i class='fas fa-phone'></i>
+                            <i class='fas fa-wifi'></i>
+                            <i class='fas fa-tv'></i>
+                        </div>
+                        <!-- Choose Button -->
+                        <a href="#" class="choose-btn">رزرو آنلاین</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About -->
+    <section id="about">
+        <div class="flex-container">
+            <!-- content -->
+            <div class="col-content">
+                <h2>درباره پروژه قو الماس خاورمیانه</h2>
+                <p>مجتمع مسکونی قو ، دو برج دوقلوی 25 طبقه را شامل می شود که با استفاده از جدیدترین متدهای مهندسی و ساخت فضاهای آپارتمانی طراحی و با مطلوبترین مواد و مرغوبترین مصالح ساختمانی ساخته شده است .این دو برج 292 واحد آپارتمان مسکونی و 5 واحد پنت هاوس بسیار مجلل ، زیبا ، جذاب و شیک و را در خود جای داده است .مساحت واحدهای احداث شده از 85 تا 200 متر مربع در نظر گرفته شده است که علاوه بر داشتن کلیه امکانات رفاهی ، زیباترین و متنوع ترین چشم اندازهای طبیعت شمال کشور را به خریداران محترم و ساکنان آن ارائه می دهد.</p>
+            </div>
+            <!-- image -->
+            <div class="col-image">
+                <img src="img/ghoo-almas.jpg" alt="یک عدد قو" class="img-responsive">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="flex-container">
+            <!-- email -->
+            <div class="email">
+                <i class='fab fa-internet-explorer'></i>
+                <span> ایمیل: info@mail.com</span>
+            </div>
+            <!-- phone -->
+            <div class="phone">
+                <i class='fab fa-internet-explorer'></i>
+                <span>تلفن :</span>
+                <span dir="ltr">+ 98 11 1234</span>
+            </div>
+            <!-- Address -->
+            <div class="address">
+                <i class='fab fa-internet-explorer'></i>
+                <span> آدرس: مازندران، متل قو</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+        <h5>ما را در شبکه های اجتماعی دنبال کنید</h5>
+        <div class="socials">
+            <a href="#"><i class='fab fab fa-instagram'></i></a>
+            <a href="#"><i class='fab fa-twitter-square'></i></a>
+            <a href="#"><i class='fab fa-pinterest-square'></i></a>
+            <a href="#"><i class='fab fa-whatsapp'></i></a>
+            <a href="#"><i class='fab fa-facebook'></i></a>
+        </div>
+        <p>Power by Spring Tofigh summer 1401</p>
+    </footer>
+</body>
+</html>

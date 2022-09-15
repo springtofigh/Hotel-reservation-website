@@ -1,0 +1,363 @@
+/* /////////////// BASE //////////////////// */
+/* ---> Variables */
+:root {
+    --main-color:#ff4436;
+}
+/*  ---> initial style for all elements */
+* {
+    font-family: my-shabnam;
+    box-sizing: border-box;
+}
+
+/*  ---> body initial Style */
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    color: #444;
+    background-color: #f1f1f1;
+}
+
+/*  ---> link initial style */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ---> Float Setting */
+.clearfix::after {
+	content: '';
+	clear: both;
+	display: table;
+}
+
+/* --->Image Resposive */
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+/* GENERAL */
+/* Top navigation */
+#top-nav {
+    background-color: #ffffff;
+}
+
+#top-nav a {
+    /* width: 100%; */
+    display: block;
+    /* display: flex;
+    justify-content: center;
+    align-content: wrap; */
+    font-size: 18px;
+    padding: 10px 15px;
+    font-weight: 300;
+    text-align: center;
+}
+
+#top-nav a.logo {
+    background-color:var(--main-color);
+    color:#fff;
+}
+
+#top-nav a.f-left {
+    background-color: #f1f1f1;
+}
+
+#top-nav a:hover {
+    background-color: #ddd;
+    color: #444;
+}
+
+/* Header */
+#main-header {
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+#header-reserve-box {
+    width: 100%;
+    background-color: #eee;
+    margin: 20px;
+}
+
+#header-reserve-box h2 {
+    background-color: var(--main-color);
+    margin: 0;
+    padding: 14px 16px;
+    color: #eee;
+    font-weight: normal;
+    font-size: 26px;
+}
+
+#header-reserve-box .entry {
+    padding: 20px 8px;
+}
+
+#header-reserve-box  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#header-reserve-box .form-group {
+    flex: 0 0 100%;
+    padding: 0 8px;
+    margin-bottom: 25px;
+}
+
+#header-reserve-box .form-group label {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 16px;
+}
+
+#header-reserve-box .form-group input {
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 0px;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+#header-reserve-box .form-group input::placeholder {
+    color: #aaa;
+}
+
+#header-reserve-box button {
+    margin: 0 8px;
+    border: none;
+    background-color: #666;
+    font-size: 16px;
+    padding: 8px 15px;
+    color: #eee;
+    font-weight: light;
+    cursor: pointer;
+}
+
+#header-reserve-box button:hover {
+    background-color: #ccc;
+    color: #444;
+}
+
+/* Rooms */
+#rooms header {
+    text-align: center;
+    padding: 40px 0;
+}
+
+#rooms header span {
+    color: #bbb;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+#rooms header h2 {
+    font-weight: normal;
+    font-size: 26px;
+    margin: 0;
+}
+
+#rooms .entry{
+    padding:0 8px;
+}
+
+#rooms .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#rooms .col-item {
+    flex: 0 0 100%;
+    padding: 0 8px;
+    margin-bottom: 16px;
+}
+
+#rooms .room-item {
+    background-color: #ffffff;
+    padding-bottom: 16px;
+}
+
+#rooms .room-item .title {
+    font-size: 26px;
+    font-weight: normal;
+    margin: 12px 16px;
+}
+
+#rooms .room-item div {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 12px 16px;
+    color: #888;
+}
+
+#rooms .room-item .price {
+    color:#01b301;
+}
+
+#rooms .room-item .more-property i {
+    padding: 10px 0;
+    margin-left: 8px;
+    color:#444 ;
+}
+
+#rooms .room-item  .choose-btn {
+    display: block;
+    background-color: #111;
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    padding: 8px 0;
+    margin: 0 16px;
+}
+
+#rooms .room-item  .choose-btn:hover {
+    background-color: var(--main-color);
+}
+
+/* ---> About */
+#about {
+    padding: 20px 8px 0px;
+}
+
+#about .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#about .col-content {
+    flex: 0 0 100%;
+    padding: 0 8px;
+    text-align: center;
+}
+
+#about .col-image{
+    flex: 0 0 100%;
+    padding: 0 8px;
+}
+
+#about .col-content h2 {
+    font-weight: normal;
+    font-size: 26px;
+}
+
+#about .col-content p {
+    font-size: 16;
+    font-weight: 300;
+    line-height: 1.8;
+}
+
+/* ---> Contact */
+#contact {
+    padding: 20px 0;
+}
+
+#contact .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contact .flex-container > div {
+    flex: 0 0 100%;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 0; 
+}
+
+#contact i {
+    color: var(--main-color);
+    margin-left: 4px;
+}
+
+#contact span {
+    font-weight: 300;
+}
+
+/* ---> Footer */
+#main-footer {
+    padding: 15px 0;
+    background-color: #111;
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+}
+
+#main-footer h5 {
+    font-weight: 300;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+#main-footer .socials > a {
+    font-size: 30px;
+    padding: 0 2px;
+}
+
+#main-footer .socials > a:hover {
+    color: var(--main-color);
+}
+
+#main-footer p {
+    font-size: 10px;
+    padding: 14px;
+}
+
+/* TABLET */
+@media (min-width: 768px) {
+    /* ---> Top Navigation */
+    #top-nav a.f-right {
+		float: right;
+	}
+    #top-nav a.f-left {
+		float: left;
+	}
+
+    /* ---> Header  */
+    #main-header {
+        justify-content: center;
+    }
+    #header-reserve-box {
+        width: 640px;
+    }
+    #header-reserve-box .form-group {
+        flex: 0 0 50%;
+    }
+
+    /* ---> Rooms */
+    #rooms .col-item {
+        flex:0 0 33.333%;
+    }
+
+    /* ---> Contact */
+    #contact .flex-container {
+        justify-content: space-around;
+    }
+    #contact .flex-container > div {
+        flex: 0 0 auto;
+        
+    }
+}
+
+/* DESKTOP */
+@media (min-width: 1024px ) {
+    #main-header {
+        justify-content: flex-end;
+    }
+    #about .col-content {
+        flex:0 0 33.333%;
+        text-align: right;
+    }
+    #about .col-image {
+        flex:0 0 66.666%;
+    }
+}
