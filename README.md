@@ -11,7 +11,7 @@ This web page allows users to view available rooms, check prices, and add reserv
 [![پروژه قو الماس خاورمیانه-2](https://i.im.ge/2023/05/21/hXLKLY.2.png)](https://im.ge/i/hXLKLY)
 
 
-## Technologies that I use in this peoject
+## Technologies that I used in this project
 
 ✴ HTML
 
